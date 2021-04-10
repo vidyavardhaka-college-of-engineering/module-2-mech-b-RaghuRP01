@@ -8,15 +8,16 @@ int main()
 {
   int array[100], search, c, n;
 
-  printf("Enter number of elements in the array, array elements and the key");
+  printf("Enter number of elements in the array, array elements and the key ");
   scanf("%d", &n);
 
-  
-  for (c = 0; c < n; c++)
-    scanf("%d", &array[c]);
-
  
-  scanf("%d", &search);
+  for (c = 0; c < n; c++)
+  {
+    scanf("%d", &array[c]);
+  }
+ 
+scanf("%d", &search);
 
   for (c = 0; c < n; c++)
   {
@@ -28,7 +29,7 @@ int main()
     }
   }
   if (c == n)
-    printf("%d is not present in the array", );
+    printf("%d is not present in the array",c);
 
   return 0;
 }
